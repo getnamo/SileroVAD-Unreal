@@ -100,9 +100,13 @@ void USileroVADSubsystem::AnalyzeSoundWave(USoundWave* SoundWave, float Threshol
 			bool bSpeaking = OutputProb >= Threshold;
 
 			if (bSpeaking && !bWasSpeaking)
+			{
 				OnVoiceStarted.Broadcast();
+			}
 			else if (!bSpeaking && bWasSpeaking)
+			{
 				OnVoiceStopped.Broadcast();
+			}
 
 			bWasSpeaking = bSpeaking;
 		}
