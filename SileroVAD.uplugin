@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "SileroVAD",
+	"Description": "Silero VAD plugin for Unreal engine.",
+	"Category": "TTS",
+	"CreatedBy": "getnamo",
+	"CreatedByURL": "https://github.com/getnamo",
+	"DocsURL": "https://github.com/getnamo/SileroVAD-Unreal",
+	"MarketplaceURL": "",
+	"SupportURL": "https://github.com/getnamo/SileroVAD-Unreal/issues",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "SileroVAD",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
